@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  background: #0a0ae7;
+  color: rgb(255, 255, 255);
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+}
+
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  background: white;
+  color: #4f46e5;
+  padding: 5px 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.features {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+
+.card {
+  background: #ddd8d8;
+  padding: 20px;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #09d416;
+  color: white;
+}
